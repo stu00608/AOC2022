@@ -10,3 +10,6 @@
 - Day 2
   - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day2/main.py)
   - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day2/main.py)
+- Day 3
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day3/main.py)
+  - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day3/main.py)
