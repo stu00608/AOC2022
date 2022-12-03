@@ -1,7 +1,10 @@
-def compare(first: str, second: str):
-    """Compare two str, find the one char that appear in both str."""
-    for c in first:
-        if c in second:
+def compare(*candidate):
+    """Compare strings, find the one char that appear in all strings."""
+    for c in min(*candidate, key=len):
+        state_list = [c in can for can in candidate[0]]
+        if False in state_list:
+            continue
+        else:
             return c
     return None
 
@@ -16,13 +19,13 @@ def get_priority(c: str):
 if __name__ == "__main__":
     with open("input.txt") as f:
         data_list = f.read().splitlines()
-
+    
     priority_list = []
     for data in data_list:
         first, second = data[:len(data)//2], data[len(data)//2:]
-        item = compare(first, second)
+        item = compare([first, second])
         priority = get_priority(item)
         priority_list.append(priority)
-    
     print(f"Part 1: {sum(priority_list)}")
+    
 
