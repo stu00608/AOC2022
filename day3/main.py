@@ -28,4 +28,11 @@ if __name__ == "__main__":
         priority_list.append(priority)
     print(f"Part 1: {sum(priority_list)}")
     
+    priority_list = []
+    for i in range(0, len(data_list), 3):
+        item = compare(data_list[i:i+3])
+        priority = get_priority(item)
+        priority_list.append(priority)
+    print(f"Part 2: {sum(priority_list)}")
+    
 
