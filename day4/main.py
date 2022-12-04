@@ -3,6 +3,7 @@ if __name__ == "__main__":
         data_list = f.read().splitlines()
     
     first_result = 0
+    second_result = 0
     for data in data_list:
         first, second = data.split(",")
 
@@ -13,6 +14,8 @@ if __name__ == "__main__":
         short = min([range1, range2], key=len)
         if (range1 & range2) == short:
             first_result += 1
-        
+        if len(range1 & range2) != 0:
+            second_result += 1
 
     print(f"Part 1: {first_result}")
+    print(f"Part 2: {second_result}")
