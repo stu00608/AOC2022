@@ -6,7 +6,7 @@ def get_inputs(filename: str):
     """Given filename, read the stack matrix and command list."""
     line = 1
     data_list = []
-    with open("input.txt") as f:
+    with open(filename) as f:
         # Reading table.
         while line != '':
             line = f.readline().rstrip('\n')
