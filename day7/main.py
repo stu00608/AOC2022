@@ -9,7 +9,6 @@ if __name__ == "__main__":
     record = {'/': 0}
     current_path = '/'
     while data_list:
-        print(record, current_path)
         data = data_list.pop()
         if data[0] == '$':
             if data[2:4] == "cd":
@@ -31,6 +30,16 @@ if __name__ == "__main__":
                     record[dirname(temp_path)] += int(indicator)
                     temp_path = dirname(temp_path)
 
-    first_result = sum(item for item in list(record.values()) if item <= 100000)
+    folder_size_list = list(record.values())
+    first_result = sum(item for item in folder_size_list if item <= 100000)
 
     print(f"Part 1: {first_result}")
+
+    sorted_folder_size_list = sorted(folder_size_list)
+
+    required_space = abs(record["/"] - 70000000)
+    required_space = 30000000 - required_space
+    for item in sorted_folder_size_list:
+        if item >= required_space:
+            print(f"Part 2: {item}")
+            break
