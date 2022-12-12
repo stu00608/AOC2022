@@ -19,3 +19,15 @@
 - Day 5
   - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day5/main.py)
   - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day5/main.py)
+- Day 6
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day6/main.py)
+  - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day6/main.py)
+- Day 7
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day7/main.py)
+  - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day7/main.py)
+- Day 8
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day8/main.py)
+  - Part2 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day8/main.py)
+- Day 9
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day9/main.py)
+  - Part2 : ❌
