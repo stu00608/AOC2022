@@ -31,3 +31,9 @@
 - Day 9
   - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day9/main.py)
   - Part2 : ❌
+- Day 10
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day10/main.py)
+  - Part2 : ❌
+- Day 11
+  - Part1 : [⭕](https://github.com/stu00608/AOC2022/blob/master/day11/main.py)
+  - Part2 : ❌
